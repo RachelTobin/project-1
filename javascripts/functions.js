@@ -11,3 +11,18 @@ arrAvg = function(arrList) {
 
 
 arrAvg([2, 3, 5, 7, 9]);
+
+
+
+arrMax = function(arrList) {
+    max = arrList[0];
+    arrList.forEach(function(item, index, array) {
+      if (item > max){
+        max = item;
+      }
+    });
+    return max;
+};
+
+
+arrMax([6, 2, 4]);
