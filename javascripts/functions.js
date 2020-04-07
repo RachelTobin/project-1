@@ -26,3 +26,18 @@ arrMax = function(arrList) {
 
 
 arrMax([6, 2, 4]);
+
+
+
+sumEvens = function(arrList){
+    sum = 0;
+    for (var element of arrList) {
+      if (element % 2 == 0) {
+        sum += element;
+      }
+    }
+  return sum;
+};
+
+
+console.log(sumEvens([1, 2, 6]));
