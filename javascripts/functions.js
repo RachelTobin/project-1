@@ -34,3 +34,14 @@ let sumEvens = (arr) => {
   }
   return sum;
 };
+
+
+
+//Optional E.C.
+function alphaPosition(ch) {
+  charUpper = ch.toUpperCase();
+  code = charUpper.charCodeAt(0);
+  startchar = "A";
+  startPlace = startchar.charCodeAt(0) - 1;
+  return(code - startPlace);
+}
