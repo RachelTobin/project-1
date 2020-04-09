@@ -1,39 +1,36 @@
-// jshint esversion: 6
-total = 0;
-arrAvg = function(arrList) {
-  for (index = 0; index < arrList.length; index++) {
-    console.log(arrList[index]);
-    total += arrList[index];
-}
-  return total/arrList.length;
+// jshint esversion: 7
+
+//Req. 3b Creates a funtion that computes the average value of the array
+let arrAvg = (arr) => {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
 };
 
-arrAvg([2, 3, 5, 7, 9]);
 
 
-
-arrMax = function(arrList) {
-    max = arrList[0];
-    arrList.forEach(function(item, index, array) {
-      if (item > max){
-        max = item;
-      }
-    });
-    return max;
-};
-
-arrMax([6, 2, 4]);
-
-
-
-sumEvens = function(arrList){
-    sum = 0;
-    for (var element of arrList) {
-      if (element % 2 == 0) {
-        sum += element;
-      }
+//Req. 3c Creates a function that finds largest value in the array
+let arrMax = (arr) => {
+  max = arr[0];
+  arr.forEach(function(item, index, array) {
+    if (item > max) {
+      max = item;
     }
+  });
+  return max;
+};
+
+
+
+//Req. 3d Creates a function that adds together all even values in array
+let sumEvens = (arr) => {
+  sum = 0;
+  for (let i in arr) {
+    if (arr[i] % 2 == 0) {
+      sum += arr[i];
+    }
+  }
   return sum;
 };
-
-console.log(sumEvens([1, 2, 6]));
