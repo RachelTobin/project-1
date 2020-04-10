@@ -2,11 +2,32 @@ input[type=text] {
   font-size: 24px;
 }
 
+h2 {
+  font-size: 46px;
+  text-align: center;
+  color: white;
+}
+
 button {
   background-color: black;
   color: lime;
   font-size: 24px;
   border-radius: 7px;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  font-size: 30px;
 }
 
 hr{
