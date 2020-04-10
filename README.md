@@ -12,4 +12,4 @@
 - JavaScript ES6+ features
 - Become more proficient in creating subfolders through the terminal
 
-![](https://pages.uoregon.edu/rtobin/281/)
+[Link to my 281 website on uoregon.edu](https://pages.uoregon.edu/rtobin/281/)
