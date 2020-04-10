@@ -9,3 +9,5 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - Become more proficient in creating subfolders through the terminal
+
+![](images/githubOctocat.jpg)
