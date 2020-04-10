@@ -1,3 +1,5 @@
+![](p1/images/githubOctocat.jpg)
+
 # CIT 281 Project 1
 
 ## Learning Objectives
@@ -9,5 +11,3 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - Become more proficient in creating subfolders through the terminal
-
-![](p1/images/githubOctocat.jpg)
