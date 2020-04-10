@@ -10,4 +10,4 @@
 - JavaScript ES6+ features
 - Become more proficient in creating subfolders through the terminal
 
-![](images/githubOctocat.jpg)
+![](p1/images/githubOctocat.jpg)
