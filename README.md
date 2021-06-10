@@ -12,4 +12,5 @@
 - JavaScript ES6+ features
 - Become more proficient in creating subfolders through the terminal
 
-[Link to my 281 website on uoregon.edu](https://pages.uoregon.edu/rtobin/281/)
+### [Link back to Rachel Tobin's Github User Page](https://racheltobin.github.io)
+
